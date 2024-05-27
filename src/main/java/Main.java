@@ -1,6 +1,7 @@
 public class Main {
   public static void main(String[] args) {
-    System.out.println("1) Uma TV de 200 watts fica ligada aproximadamente 5h diariamente. Determine o consumo elétrico mensal da TV.");
+    System.out.println(
+        "1) Uma TV de 200 watts fica ligada aproximadamente 5h diariamente. Determine o consumo elétrico mensal da TV.");
     System.out.println("");
     System.out.println("Coloque a potência do aparelho (em Watts):");
     int potencia = 200;
@@ -8,7 +9,7 @@ public class Main {
     System.out.println(" Watts");
     System.out.println("");
     System.out.println("Coloque o tempo que foi/será utilizado o aparelho (em horas):");
-   int tempo = 5;
+    int tempo = 5;
     System.out.print(tempo);
     System.out.println("h");
     System.out.println("");
@@ -24,8 +25,8 @@ public class Main {
     System.out.println("    1000");
     System.out.println("");
     System.out.println("O resultado da fórmula para esse exercício será:");
-    int multiplicar = potencia*tempo*mes;
-    int dividir = multiplicar/1000;
+    int multiplicar = potencia * tempo * mes;
+    int dividir = multiplicar / 1000;
     System.out.print("O consumo da TV por mês será ");
     System.out.print(dividir);
     System.out.print("Kw");
